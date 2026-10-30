@@ -3,7 +3,7 @@
   // - Build command:  npm ci && npm run build
   // - Deploy command: npx wrangler deploy  (dashboard default is fine)
   // Dashboard worker name must match this "name" field.
-  "name": "jetbrains-license-server-help-cloudflare",
+  "name": "jetbrains",
   "main": "src/index.ts",
   "compatibility_date": "2025-12-01",
   // Do not set "limits"."cpu_ms" here on Workers Free: deploy fails with API error 100328.
